@@ -1,0 +1,6 @@
+
+.codegpt
+.env
+credentials.json
+node_modules
+package-lock.json

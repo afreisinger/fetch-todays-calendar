@@ -1,0 +1,27 @@
+{
+  "name": "@afreisinger/fetch-today-calendar",
+  "version": "1.0.0",
+  "description": "> Does exactly what is says",
+  "main": "app.js",
+  "bin": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "< 21",
+    "npm": "< 11"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^110.0.0",
+    "mkdirp": "^2.1.3",
+    "yargs": "^17"
+  },
+  "scripts": {
+    "preinstall": "node scripts/preinstall.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  }
+}
