@@ -34,11 +34,11 @@ const SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
 
 const APP_CONFIG_DIR = process.env.APP_CONFIG_DIR
   ? path.join(os.homedir(), process.env.APP_CONFIG_DIR)
-  : path.join(os.homedir(), '.config/fetch-today-calendar');
+  : path.join(os.homedir(), '.config/fetch-todays-calendar');
 
   const APP_DATA_DIR = process.env.APP_DATA_DIR
   ? path.join(os.homedir(), process.env.APP_DATA_DIR)
-  : path.join(os.homedir(), '.local/share/fetch-today-calendar');
+  : path.join(os.homedir(), '.local/share/fetch-todays-calendar');
 
 
 
