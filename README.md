@@ -20,7 +20,7 @@ A Node.js script that interacts with the Google Calendar API to fetch today's ev
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/fetch-today-calendar.git
+   git clone https://github.com/afreisinger/fetch-today-calendar.git
    cd fetch-today-calendar
 
 2. Install dependencies:
